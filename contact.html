@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — Software House</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+        <div class="email">
+            <p><i class="fa-solid fa-envelope" style="margin-right: 6px;"></i> sales@devnova.com</p>
+        </div>
+        <div class="topbarmenu">
+            <ol>
+                <li>Reviews & Awards</li>
+                <li><a href="contact.html" style="color:white; text-decoration:none;">Contact Us</a></li>
+                <li>Careers</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" height="100px" width="200px">
+        </div>
+        <!-- Hamburger Menu Button for Mobile -->
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="haederlist" id="headerList">
+            <ol class="nav">
+                <li><a href="software-house.html" style="text-decoration:none; color:inherit;">Home</a></li>
+                <li><a href="about.html" style="text-decoration:none; color:inherit;">About</a></li>
+                <li class="dropdown">
+                    <a href="services.html" style="text-decoration:none; color:inherit;">Services</a>
+                    <ul class="dropdown-menu">
+                        <li>Web Development</li>
+                        <li>App Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Web Security</li>
+                        <li>Web Design</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                </li>
+                <li><a href="team.html" style="text-decoration:none; color:inherit;">Team</a></li>
+                <li><a href="portfolio.html" style="text-decoration:none; color:inherit;">Portfolio</a></li>
+                <li id="nav"><a href="contact.html" style="text-decoration:none; color:inherit;">Contact</a></li>
+            </ol>
+        </div>
+        <div class="btns" id="headerBtns">
+            <button class="btn">Hire Staff</button>
+            <button class="btn">Contact Us</button>
+        </div>
+    </header>
+
+    <!-- INNER PAGE HERO BANNER -->
+    <div class="banner-container" style="padding: 60px 20px; background: linear-gradient(rgba(10, 25, 60, 0.82), rgba(10, 25, 60, 0.9)), url('./images/banner.jpg'); background-size: cover; background-position: center;">
+        <div class="bannerheading">
+            <h5 class="text" style="color: #60a5fa; margin-top: 0;">Get In Touch</h5>
+            <h1 class="headingbanner" style="font-size: 42px; margin-bottom: 10px;">Contact Our Team</h1>
+            <p class="bannerpara" style="font-size: 16px; margin-bottom: 0;">Have an idea or project? Let's discuss how we can bring it to life.</p>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div class="contactsection">
+        <div class="main-content" style="padding-top: 20px;">
+            <h5 class="text" id="text">Send A Message</h5>
+            <h1 class="maintext">We'd Love To Hear From You</h1>
+        </div>
+        <div class="contactbox">
+            <div class="contactform" data-aos="fade-left">
+                <form action="">
+                    <input type="text" name="fname" id="fname" placeholder="Your Full Name">
+                    <input type="email" name="email" id="email" placeholder="Your Email Address">
+                    <input type="number" name="number" id="number" placeholder="Phone Number">
+                    <textarea name="message" id="message" cols="40" rows="5" placeholder="Tell us about your project..."></textarea>
+                </form>
+                <div class="contactbtn">
+                    <button class="contactbutton" id="attachbtn">Attach File</button>
+                    <button class="contactbutton" id="sendbtn">SEND MESSAGE</button>
+                </div>
+            </div>
+
+            <div class="map" data-aos="fade-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916246075636!2d2.2944812999999997!3d48.858370099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2s!4v1770785329534!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-cards">
+                <img src="./images/logo.png" alt="Logo">
+                <p>Empowering businesses and building careers. We providing services and training programs.</p>
+                <div class="icons">
+                    <div class="icon1"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="icon1"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="icon1"><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+            <div class="footer-cards">
+                <h1>Services</h1>
+                <nav>
+                    <li>Web Development</li>
+                    <li>App Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Web Security</li>
+                    <li>Web Design</li>
+                    <li>Digital Marketing</li>
+                    <li>Programming</li>
+                </nav>
+            </div>
+            <div class="footer-cards">
+                <h1>Explore</h1>
+                <nav>
+                    <li><a href="software-house.html" style="color:inherit; text-decoration:none;">Home</a></li>
+                    <li><a href="about.html" style="color:inherit; text-decoration:none;">About</a></li>
+                    <li><a href="services.html" style="color:inherit; text-decoration:none;">Services</a></li>
+                    <li><a href="team.html" style="color:inherit; text-decoration:none;">Team</a></li>
+                    <li><a href="portfolio.html" style="color:inherit; text-decoration:none;">Portfolio</a></li>
+                    <li><a href="contact.html" style="color:inherit; text-decoration:none;">Contact</a></li>
+                </nav>
+            </div>
+            <div class="footer-cards">
+                <h1>Contact Info</h1>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <p>XYZ, Bahawalpur</p>
+                </div>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+92 306 8766365</p>
+                </div>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>sales@devnova.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+
+        const menuToggle = document.getElementById('menuToggle');
+        const headerList = document.getElementById('headerList');
+        const headerBtns = document.getElementById('headerBtns');
+
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                headerList.classList.toggle('active');
+                if (headerBtns) headerBtns.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-xmark');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

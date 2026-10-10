@@ -1,0 +1,289 @@
+/* ================================================
+   Software House Website — Full Media Queries
+   ================================================ */
+
+/* Large Tablets & Small Laptops (<= 1024px) */
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .haederlist .nav {
+        gap: 10px 15px;
+        font-size: 15px;
+    }
+
+    .row {
+        gap: 30px;
+    }
+
+    .left {
+        height: 380px;
+        max-width: 400px;
+    }
+
+    .sub-card {
+        width: calc(50% - 15px);
+    }
+
+    .portfoliocard {
+        width: calc(50% - 15px);
+        max-width: none;
+    }
+}
+
+/* Tablets (<= 768px) */
+@media screen and (max-width: 768px) {
+    .topbar {
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+        padding: 8px 15px;
+    }
+
+    .topbarmenu ol {
+        justify-content: center;
+        gap: 15px;
+        font-size: 13px;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .haederlist {
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        border-top: 1px solid #e2e8f0;
+    }
+
+    .haederlist.active {
+        display: block;
+    }
+
+    .haederlist .nav {
+        flex-direction: column;
+        gap: 12px;
+        font-size: 16px;
+    }
+
+    .btns {
+        display: none;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+
+    .btns.active {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner-container {
+        padding: 60px 20px;
+    }
+
+    .heading1 {
+        font-size: 28px;
+    }
+
+    .headingbanner {
+        font-size: 34px;
+    }
+
+    .bannerpara {
+        font-size: 16px;
+    }
+
+    .banner-btn {
+        font-size: 16px;
+        padding: 12px 26px;
+    }
+
+    .aboutsection {
+        padding: 50px 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left {
+        width: 100%;
+        max-width: 320px;
+        height: 320px;
+        clip-path: none;
+        border-radius: 20px;
+    }
+
+    .right {
+        max-width: 100%;
+    }
+
+    #abouttext {
+        font-size: 28px;
+    }
+
+    .maintext {
+        font-size: 2rem;
+    }
+
+    .sub-card {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .teamsection {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px 40px 20px;
+    }
+
+    .teamcard {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .portfoliosection {
+        padding: 10px 20px 40px 20px;
+    }
+
+    .portfoliocard {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .contactsection {
+        padding: 30px 15px 60px 15px;
+    }
+
+    .contactbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactform {
+        width: 100%;
+        max-width: 600px;
+        padding: 35px 25px;
+    }
+
+    .map {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .map iframe {
+        min-height: 350px;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-cards {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer-cards h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .contactinfo {
+        justify-content: center;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+}
+
+/* Mobile Phones (<= 576px) */
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        height: 70px;
+        width: 130px;
+    }
+
+    .haederlist .nav {
+        gap: 8px 12px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 9px 20px;
+        font-size: 13px;
+    }
+
+    .heading1 {
+        font-size: 22px;
+    }
+
+    .headingbanner {
+        font-size: 26px;
+    }
+
+    .banner-btn {
+        width: 100%;
+        margin: 5px 0;
+        font-size: 15px;
+    }
+
+    .overlayheading {
+        font-size: 22px;
+    }
+
+    .overlaypara {
+        font-size: 13px;
+    }
+
+    .icon {
+        font-size: 50px;
+    }
+
+    .subcardheading {
+        font-size: 1.2rem;
+    }
+
+    .primary-button {
+        padding: 10px 28px;
+        font-size: 14px;
+    }
+
+    .contactform {
+        padding: 25px 15px;
+    }
+
+    .contactbtn {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contactbutton {
+        width: 100%;
+        text-align: center;
+    }
+}

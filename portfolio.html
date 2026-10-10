@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Software House</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+        <div class="email">
+            <p><i class="fa-solid fa-envelope" style="margin-right: 6px;"></i> sales@devnova.com</p>
+        </div>
+        <div class="topbarmenu">
+            <ol>
+                <li>Reviews & Awards</li>
+                <li><a href="contact.html" style="color:white; text-decoration:none;">Contact Us</a></li>
+                <li>Careers</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" height="100px" width="200px">
+        </div>
+        <!-- Hamburger Menu Button for Mobile -->
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="haederlist" id="headerList">
+            <ol class="nav">
+                <li><a href="software-house.html" style="text-decoration:none; color:inherit;">Home</a></li>
+                <li><a href="about.html" style="text-decoration:none; color:inherit;">About</a></li>
+                <li class="dropdown">
+                    <a href="services.html" style="text-decoration:none; color:inherit;">Services</a>
+                    <ul class="dropdown-menu">
+                        <li>Web Development</li>
+                        <li>App Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Web Security</li>
+                        <li>Web Design</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                </li>
+                <li><a href="team.html" style="text-decoration:none; color:inherit;">Team</a></li>
+                <li id="nav"><a href="portfolio.html" style="text-decoration:none; color:inherit;">Portfolio</a></li>
+                <li><a href="contact.html" style="text-decoration:none; color:inherit;">Contact</a></li>
+            </ol>
+        </div>
+        <div class="btns" id="headerBtns">
+            <button class="btn">Hire Staff</button>
+            <button class="btn">Contact Us</button>
+        </div>
+    </header>
+
+    <!-- INNER PAGE HERO BANNER -->
+    <div class="banner-container" style="padding: 60px 20px; background: linear-gradient(rgba(10, 25, 60, 0.82), rgba(10, 25, 60, 0.9)), url('./images/banner.jpg'); background-size: cover; background-position: center;">
+        <div class="bannerheading">
+            <h5 class="text" style="color: #60a5fa; margin-top: 0;">Case Studies & Work</h5>
+            <h1 class="headingbanner" style="font-size: 42px; margin-bottom: 10px;">Our Completed Projects</h1>
+            <p class="bannerpara" style="font-size: 16px; margin-bottom: 0;">Explore how we help global brands succeed through tailored technology.</p>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO SECTION -->
+    <div class="main-content">
+        <h5 class="text" id="text">Featured Work</h5>
+        <h1 class="maintext">Delivering Measurable Impact</h1>
+    </div>
+    <div class="portfoliosection">
+        <div class="portfoliocard" data-aos="fade-up" data-aos-delay="0">
+            <div class="imgcard">
+                <div class="wrapper1">
+                    <img src="./images/project-1.jpg" alt="AWS Cloud Project">
+                </div>
+            </div>
+            <div class="card-content">
+                <h3 class="heading">AWS</h3>
+                <h5 class="heading2">Cloud-Based Fraud Detection System</h5>
+                <div class="extra-content">
+                    <p class="extra-para">We developed a scalable cloud solution that detects suspicious transactions in real-time using AI models, improving security and reducing financial risks for businesses.</p>
+                    <a class="readmore-anchor">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfoliocard" data-aos="fade-up" data-aos-delay="150">
+            <div class="imgcard">
+                <div class="wrapper1">
+                    <img src="./images/project-2.jpg" alt="Web Development Project">
+                </div>
+            </div>
+            <div class="card-content">
+                <h3 class="heading">Web Development</h3>
+                <h5 class="heading2">Modern E-Commerce Platform</h5>
+                <div class="extra-content">
+                    <p class="extra-para">A fully responsive e-commerce website with secure payment integration, optimized performance, and seamless user experience to boost online sales.</p>
+                    <a class="readmore-anchor">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfoliocard" data-aos="fade-up" data-aos-delay="300">
+            <div class="imgcard">
+                <div class="wrapper1">
+                    <img src="./images/project-3.jpg" alt="Mobile App Project">
+                </div>
+            </div>
+            <div class="card-content">
+                <h3 class="heading">Mobile App</h3>
+                <h5 class="heading2">Smart Healthcare Application</h5>
+                <div class="extra-content">
+                    <p class="extra-para">A user-friendly mobile app that connects patients with doctors, enables appointment booking, and tracks health records efficiently.</p>
+                    <a class="readmore-anchor">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfoliocard" data-aos="fade-up" data-aos-delay="0">
+            <div class="imgcard">
+                <div class="wrapper1">
+                    <img src="./images/project-4.jpg" alt="UI/UX Dashboard Project">
+                </div>
+            </div>
+            <div class="card-content">
+                <h3 class="heading">UI/UX Design</h3>
+                <h5 class="heading2">Intuitive Dashboard Design</h5>
+                <div class="extra-content">
+                    <p class="extra-para">Designed a clean and modern dashboard interface focused on usability, data visualization, and improved user engagement.</p>
+                    <a class="readmore-anchor">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfoliocard" data-aos="fade-up" data-aos-delay="150">
+            <div class="imgcard">
+                <div class="wrapper1">
+                    <img src="./images/project-5.jpg" alt="AI Analytics Project">
+                </div>
+            </div>
+            <div class="card-content">
+                <h3 class="heading">AI Solutions</h3>
+                <h5 class="heading2">Customer Behavior Analytics</h5>
+                <div class="extra-content">
+                    <p class="extra-para">Implemented AI-driven analytics to understand customer behavior, helping businesses make data-driven decisions and increase conversions.</p>
+                    <a class="readmore-anchor">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfoliocard" data-aos="fade-up" data-aos-delay="300">
+            <div class="imgcard">
+                <div class="wrapper1">
+                    <img src="./images/project-6.jpg" alt="Digital Marketing Project">
+                </div>
+            </div>
+            <div class="card-content">
+                <h3 class="heading">Digital Marketing</h3>
+                <h5 class="heading2">SEO & Growth Strategy</h5>
+                <div class="extra-content">
+                    <p class="extra-para">Boosted online visibility through advanced SEO techniques and targeted marketing campaigns, resulting in higher traffic and lead generation.</p>
+                    <a class="readmore-anchor">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-cards">
+                <img src="./images/logo.png" alt="Logo">
+                <p>Empowering businesses and building careers. We providing services and training programs.</p>
+                <div class="icons">
+                    <div class="icon1"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="icon1"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="icon1"><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+            <div class="footer-cards">
+                <h1>Services</h1>
+                <nav>
+                    <li>Web Development</li>
+                    <li>App Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Web Security</li>
+                    <li>Web Design</li>
+                    <li>Digital Marketing</li>
+                    <li>Programming</li>
+                </nav>
+            </div>
+            <div class="footer-cards">
+                <h1>Explore</h1>
+                <nav>
+                    <li><a href="software-house.html" style="color:inherit; text-decoration:none;">Home</a></li>
+                    <li><a href="about.html" style="color:inherit; text-decoration:none;">About</a></li>
+                    <li><a href="services.html" style="color:inherit; text-decoration:none;">Services</a></li>
+                    <li><a href="team.html" style="color:inherit; text-decoration:none;">Team</a></li>
+                    <li><a href="portfolio.html" style="color:inherit; text-decoration:none;">Portfolio</a></li>
+                    <li><a href="contact.html" style="color:inherit; text-decoration:none;">Contact</a></li>
+                </nav>
+            </div>
+            <div class="footer-cards">
+                <h1>Contact Info</h1>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <p>XYZ, Bahawalpur</p>
+                </div>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+92 306 8766365</p>
+                </div>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>sales@devnova.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+
+        const menuToggle = document.getElementById('menuToggle');
+        const headerList = document.getElementById('headerList');
+        const headerBtns = document.getElementById('headerBtns');
+
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                headerList.classList.toggle('active');
+                if (headerBtns) headerBtns.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-xmark');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
